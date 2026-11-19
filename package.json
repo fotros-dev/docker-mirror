@@ -1,0 +1,10 @@
+{
+  "name": "fotros-docker-mirror",
+  "version": "1.0.0",
+  "description": "Persistent Docker and OCI mirror with offline multi-platform archives",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=24" },
+  "scripts": { "start": "node src/main.js serve", "test": "node --test", "verify": "node src/main.js verify" },
+  "license": "Apache-2.0"
+}
